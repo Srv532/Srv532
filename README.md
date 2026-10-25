@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Sravan Shaji" width="100%"/>
+<img src="assets/hero-v2.svg" alt="Sravan Shaji" width="100%"/>
 
 <img src="https://img.shields.io/badge/focus-cyber_security-3a6df0?style=for-the-badge&labelColor=111111" alt="focus"/>
 
