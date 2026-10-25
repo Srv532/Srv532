@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#1b1035"/>
+    </linearGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5fa2"/><stop offset="0.5" stop-color="#ffd23f"/><stop offset="1" stop-color="#3ee0ff"/>
+    </linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M30 0H0V30" fill="none" stroke="#ffffff" stroke-opacity="0.05"/>
+    </pattern>
+    <style>
+      .t{font-family:'Segoe UI',Arial,sans-serif;font-weight:900}
+      .float1{animation:f1 6s ease-in-out infinite}
+      .float2{animation:f2 7s ease-in-out infinite}
+      .float3{animation:f3 5s ease-in-out infinite}
+      .spin{transform-origin:790px 70px;animation:sp 14s linear infinite}
+      .glow{animation:gl 3s ease-in-out infinite}
+      @keyframes f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+      @keyframes f2{0%,100%{transform:translateY(0)}50%{transform:translateY(12px)}}
+      @keyframes f3{0%,100%{transform:translateX(0)}50%{transform:translateX(16px)}}
+      @keyframes sp{to{transform:rotate(360deg)}}
+      @keyframes gl{0%,100%{opacity:.55}50%{opacity:1}}
+    </style>
+  </defs>
+  <rect width="900" height="260" rx="22" fill="url(#bg)"/>
+  <rect width="900" height="260" rx="22" fill="url(#grid)"/>
+  <circle class="float1" cx="90" cy="60" r="34" fill="#ff5fa2" opacity=".85"/>
+  <rect class="float2" x="700" y="150" width="64" height="64" rx="14" fill="#3ee0ff" opacity=".8"/>
+  <polygon class="float3" points="820,200 860,230 780,230" fill="#ffd23f" opacity=".9"/>
+  <g class="spin" fill="none" stroke="#ffd23f" stroke-width="5" stroke-linecap="round">
+    <path d="M790 40v60M760 70h60M768 48l44 44M812 48l-44 44" opacity=".9"/>
+  </g>
+  <circle cx="110" cy="215" r="6" fill="#3ee0ff" class="glow"/>
+  <circle cx="640" cy="40" r="5" fill="#ff5fa2" class="glow"/>
+  <text class="t" x="455" y="137" font-size="78" text-anchor="middle" fill="#000" opacity=".5">SRAVAN SHAJI</text>
+  <text class="t" x="450" y="132" font-size="78" text-anchor="middle" fill="url(#ink)">SRAVAN SHAJI</text>
+  <text x="450" y="178" font-family="Consolas,monospace" font-size="22" text-anchor="middle" fill="#c9d1d9">web apps · android · cyber security</text>
+  <rect x="430" y="196" width="40" height="5" rx="2.5" fill="url(#ink)">
+    <animate attributeName="width" values="40;300;40" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="430;300;430" dur="4s" repeatCount="indefinite"/>
+  </rect>
+</svg>

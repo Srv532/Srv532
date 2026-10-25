@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff5fa2"/><stop offset=".5" stop-color="#ffd23f"/><stop offset="1" stop-color="#3ee0ff"/></linearGradient></defs>
+  <path fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" d="M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20">
+    <animate attributeName="d" dur="3s" repeatCount="indefinite" values="M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20;M0 20 Q 37.5 40 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20;M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20"/>
+  </path>
+</svg>

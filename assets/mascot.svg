@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" width="180" height="196">
+  <style>
+    .bob{animation:bob 2.4s ease-in-out infinite}
+    .blink{animation:blink 4s infinite;transform-origin:110px 98px}
+    .tail{animation:tail 1.6s ease-in-out infinite;transform-origin:165px 172px}
+    .key{animation:key .6s ease-in-out infinite}
+    .key2{animation:key .6s ease-in-out infinite .3s}
+    .spark{animation:sp 2s ease-in-out infinite}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
+    @keyframes tail{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(14deg)}}
+    @keyframes key{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+    @keyframes sp{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+  </style>
+  <ellipse cx="110" cy="222" rx="62" ry="9" fill="#000" opacity=".25"/>
+  <g class="bob">
+    <path class="tail" d="M165 172c30-6 40-40 18-52" fill="none" stroke="#ff9f43" stroke-width="12" stroke-linecap="round"/>
+    <path d="M62 78 70 30l30 22h20l30-22 8 48z" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="48" y="62" width="124" height="104" rx="46" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/>
+    <path d="M74 54l8 14M110 50v16M146 54l-8 14" stroke="#1a1a2e" stroke-width="5" stroke-linecap="round"/>
+    <g class="blink" fill="#1a1a2e"><ellipse cx="86" cy="98" rx="9" ry="12"/><ellipse cx="134" cy="98" rx="9" ry="12"/></g>
+    <circle cx="89" cy="93" r="3" fill="#fff"/><circle cx="137" cy="93" r="3" fill="#fff"/>
+    <ellipse cx="68" cy="122" rx="10" ry="6" fill="#ff5fa2" opacity=".6"/><ellipse cx="152" cy="122" rx="10" ry="6" fill="#ff5fa2" opacity=".6"/>
+    <path d="M100 118q10 10 20 0" fill="none" stroke="#1a1a2e" stroke-width="5" stroke-linecap="round"/>
+    <rect x="52" y="150" width="116" height="30" rx="8" fill="#1a1a2e"/>
+    <rect x="58" y="154" width="104" height="22" rx="5" fill="#2d2d4a"/>
+    <g fill="#3ee0ff"><rect class="key" x="64" y="160" width="14" height="8" rx="2"/><rect class="key2" x="84" y="160" width="14" height="8" rx="2"/><rect class="key" x="104" y="160" width="14" height="8" rx="2"/><rect class="key2" x="124" y="160" width="14" height="8" rx="2"/><rect class="key" x="144" y="160" width="12" height="8" rx="2"/></g>
+    <circle cx="82" cy="182" r="11" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/><circle cx="138" cy="182" r="11" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/>
+  </g>
+  <g fill="#ffd23f"><path class="spark" d="M30 50l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" style="transform-origin:30px 64px"/><path class="spark" d="M192 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="transform-origin:192px 51px;animation-delay:1s"/></g>
+</svg>
