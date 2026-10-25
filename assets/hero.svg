@@ -101,40 +101,6 @@
   </g>
   <circle class="flash" cx="237" cy="176" r="9" fill="#ffd60a" stroke="#ff2a1a" stroke-width="3"/>
 
-  <!-- walking devices: laptop / phone / desktop -->
-  <g transform="translate(330 340)"><g class="wL"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
-    <rect x="-18" y="-36" width="36" height="24" rx="3" fill="#3a6df0"/><rect x="-14" y="-32" width="28" height="16" rx="2" fill="#fff"/>
-    <circle cx="-5" cy="-26" r="2" fill="#111" stroke="none"/><circle cx="5" cy="-26" r="2" fill="#111" stroke="none"/><path d="M-4 -21q4 3 8 0" fill="none" stroke-width="2"/>
-    <rect x="-23" y="-12" width="46" height="6" rx="2" fill="#8b95a5"/>
-    <line class="legA" x1="-8" y1="-6" x2="-8" y2="2"/><line class="legB" x1="8" y1="-6" x2="8" y2="2"/>
-  </g></g></g>
-  <g transform="translate(430 340)"><g class="wP"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
-    <rect x="-9" y="-36" width="18" height="30" rx="4" fill="#ff5a36"/><rect x="-6" y="-32" width="12" height="20" rx="2" fill="#fff"/>
-    <circle cx="-2.5" cy="-24" r="1.6" fill="#111" stroke="none"/><circle cx="2.5" cy="-24" r="1.6" fill="#111" stroke="none"/>
-    <line class="legA" x1="-4" y1="-6" x2="-4" y2="2"/><line class="legB" x1="4" y1="-6" x2="4" y2="2"/>
-  </g></g></g>
-  <g transform="translate(560 340)"><g class="wC"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
-    <rect x="-18" y="-38" width="30" height="22" rx="3" fill="#00c46a"/><rect x="-14" y="-34" width="22" height="14" rx="2" fill="#fff"/>
-    <circle cx="-7" cy="-28" r="1.8" fill="#111" stroke="none"/><circle cx="1" cy="-28" r="1.8" fill="#111" stroke="none"/>
-    <rect x="-8" y="-16" width="10" height="6" fill="#8b95a5"/><rect x="14" y="-34" width="10" height="26" rx="2" fill="#b8c0cc"/>
-    <line class="legA" x1="-4" y1="-10" x2="-4" y2="2"/><line class="legB" x1="14" y1="-8" x2="14" y2="2"/>
-  </g></g></g>
-
-  <!-- dog + ball -->
-  <g transform="translate(830 340)">
-    <circle class="ball" cx="12" cy="-6" r="6" fill="#ff5a36" stroke="#111" stroke-width="3"/>
-  </g>
-  <g transform="translate(790 340)"><g class="dogrun"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
-    <path class="tail" d="M-22 -22q-14 -8 -10 -22" fill="none" stroke-width="5"/>
-    <ellipse cx="0" cy="-20" rx="22" ry="12" fill="#c98a4b"/>
-    <rect x="-16" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/><rect x="-4" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/><rect x="8" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/>
-    <circle cx="22" cy="-32" r="11" fill="#c98a4b"/>
-    <path d="M14 -40q-8 4 -4 14q6 -2 8 -8z" fill="#8a5a2b"/>
-    <ellipse cx="31" cy="-29" rx="6" ry="4.5" fill="#f5e6c8"/><circle cx="35" cy="-30" r="2" fill="#111" stroke="none"/>
-    <circle cx="23" cy="-35" r="1.8" fill="#111" stroke="none"/>
-    <path d="M12 -23h12" stroke="#ff5a36" stroke-width="4"/>
-  </g></g></g>
-
   <!-- yellow typing bar -->
   <rect x="48" y="346" width="820" height="64" rx="10" fill="#111"/>
   <rect x="40" y="340" width="820" height="64" rx="10" fill="#ffd60a" stroke="#111" stroke-width="4"/>
