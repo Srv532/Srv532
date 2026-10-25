@@ -2,9 +2,11 @@
 
 <img src="assets/banner.svg" alt="Sravan Shaji" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=111111&background=FFD60A&center=true&vCenter=true&width=640&lines=b.tech+student+%40+Amrita+Vishwa+Vidyapeetham;lately+deep+into+cyber+security;shipping+things+that+actually+work" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=111111&background=FFD60A&center=true&vCenter=true&width=640&lines=cyber+security;cracking+wargames+one+level+at+a+time;bandit+%C2%B7+cryptohack+%C2%B7+blockchain" alt="typing"/>
 
 <img src="assets/mascot.svg" alt="mascot" width="150"/>
+
+<img src="https://img.shields.io/badge/focus-cyber_security-3a6df0?style=for-the-badge&labelColor=111111" alt="focus"/>
 
 <a href="https://github.com/Srv532?tab=followers"><img src="https://img.shields.io/github/followers/Srv532?style=for-the-badge&logo=github&color=ff5a36&labelColor=111111" alt="followers"/></a>
 

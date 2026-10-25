@@ -33,4 +33,7 @@
     <text class="t" x="458" y="140" font-size="80" text-anchor="middle" fill="#111">SRAVAN SHAJI</text>
     <text class="t" x="450" y="132" font-size="80" text-anchor="middle" fill="#ffd60a" stroke="#111" stroke-width="3" paint-order="stroke">SRAVAN SHAJI</text>
   </g>
+  <rect x="266" y="158" width="372" height="40" rx="8" fill="#111"/>
+  <rect x="260" y="152" width="372" height="40" rx="8" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="446" y="179" font-family="Consolas,'Courier New',monospace" font-weight="700" font-size="20" text-anchor="middle" fill="#111">cyber security</text>
 </svg>
