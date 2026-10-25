@@ -1,31 +1,55 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 240" width="180" height="196">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 280" width="180" height="210">
   <style>
-    .bob{animation:bob 2.4s ease-in-out infinite}
-    .blink{animation:blink 4s infinite;transform-origin:110px 98px}
-    .tail{animation:tail 1.6s ease-in-out infinite;transform-origin:165px 172px}
+    .bob{animation:bob 2.6s ease-in-out infinite}
+    .blink{animation:blink 4s infinite;transform-origin:120px 76px}
+    .ant{animation:ant 1.2s steps(1) infinite}
+    .wave{animation:wave 1.4s ease-in-out infinite;transform-origin:176px 142px}
+    .typeL{animation:typ .5s ease-in-out infinite;transform-origin:70px 142px}
     .key{animation:key .6s ease-in-out infinite}
     .key2{animation:key .6s ease-in-out infinite .3s}
+    .scan{animation:scan 2.2s ease-in-out infinite}
+    .shadow{animation:sh 2.6s ease-in-out infinite;transform-origin:120px 268px}
     .spark{animation:sp 2s ease-in-out infinite}
-    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+    @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
     @keyframes blink{0%,92%,100%{transform:scaleY(1)}95%{transform:scaleY(.1)}}
-    @keyframes tail{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(14deg)}}
-    @keyframes key{0%,100%{transform:translateY(0)}50%{transform:translateY(4px)}}
+    @keyframes ant{0%{fill:#ff5a36}50%{fill:#ffd60a}}
+    @keyframes wave{0%,100%{transform:rotate(0)}50%{transform:rotate(-24deg)}}
+    @keyframes typ{0%,100%{transform:rotate(0)}50%{transform:rotate(8deg)}}
+    @keyframes key{0%,100%{opacity:1}50%{opacity:.35}}
+    @keyframes scan{0%,100%{transform:translateX(-14px)}50%{transform:translateX(14px)}}
+    @keyframes sh{0%,100%{transform:scaleX(1)}50%{transform:scaleX(.9)}}
     @keyframes sp{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
   </style>
-  <ellipse cx="110" cy="222" rx="62" ry="9" fill="#000" opacity=".25"/>
-  <g class="bob">
-    <path class="tail" d="M165 172c30-6 40-40 18-52" fill="none" stroke="#ff9f43" stroke-width="12" stroke-linecap="round"/>
-    <path d="M62 78 70 30l30 22h20l30-22 8 48z" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5" stroke-linejoin="round"/>
-    <rect x="48" y="62" width="124" height="104" rx="46" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/>
-    <path d="M74 54l8 14M110 50v16M146 54l-8 14" stroke="#1a1a2e" stroke-width="5" stroke-linecap="round"/>
-    <g class="blink" fill="#1a1a2e"><ellipse cx="86" cy="98" rx="9" ry="12"/><ellipse cx="134" cy="98" rx="9" ry="12"/></g>
-    <circle cx="89" cy="93" r="3" fill="#fff"/><circle cx="137" cy="93" r="3" fill="#fff"/>
-    <ellipse cx="68" cy="122" rx="10" ry="6" fill="#ff5a36" opacity=".6"/><ellipse cx="152" cy="122" rx="10" ry="6" fill="#ff5a36" opacity=".6"/>
-    <path d="M100 118q10 10 20 0" fill="none" stroke="#1a1a2e" stroke-width="5" stroke-linecap="round"/>
-    <rect x="52" y="150" width="116" height="30" rx="8" fill="#1a1a2e"/>
-    <rect x="58" y="154" width="104" height="22" rx="5" fill="#2d2d4a"/>
-    <g fill="#3a6df0"><rect class="key" x="64" y="160" width="14" height="8" rx="2"/><rect class="key2" x="84" y="160" width="14" height="8" rx="2"/><rect class="key" x="104" y="160" width="14" height="8" rx="2"/><rect class="key2" x="124" y="160" width="14" height="8" rx="2"/><rect class="key" x="144" y="160" width="12" height="8" rx="2"/></g>
-    <circle cx="82" cy="182" r="11" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/><circle cx="138" cy="182" r="11" fill="#ff9f43" stroke="#1a1a2e" stroke-width="5"/>
+  <ellipse class="shadow" cx="120" cy="268" rx="60" ry="8" fill="#000" opacity=".35"/>
+  <g class="bob" stroke="#111" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- legs -->
+    <rect x="86" y="200" width="24" height="52" rx="6" fill="#3a6df0"/>
+    <rect x="130" y="200" width="24" height="52" rx="6" fill="#3a6df0"/>
+    <rect x="78" y="244" width="38" height="16" rx="6" fill="#ff5a36"/>
+    <rect x="124" y="244" width="38" height="16" rx="6" fill="#ff5a36"/>
+    <!-- left arm (typing) -->
+    <g class="typeL"><rect x="52" y="124" width="22" height="58" rx="10" fill="#ffd60a"/><circle cx="63" cy="188" r="10" fill="#3a6df0"/></g>
+    <!-- right arm (waving) -->
+    <g class="wave"><rect x="166" y="124" width="22" height="58" rx="10" fill="#ffd60a"/><circle cx="177" cy="190" r="10" fill="#3a6df0"/></g>
+    <!-- torso -->
+    <rect x="70" y="118" width="100" height="92" rx="16" fill="#ffd60a"/>
+    <rect x="86" y="132" width="68" height="40" rx="8" fill="#111"/>
+    <g stroke="none"><rect class="key" x="94" y="142" width="12" height="8" rx="2" fill="#00c46a"/><rect class="key2" x="110" y="142" width="12" height="8" rx="2" fill="#3a6df0"/><rect class="key" x="126" y="142" width="12" height="8" rx="2" fill="#ff5a36"/><rect class="key2" x="94" y="156" width="28" height="6" rx="2" fill="#00c46a"/><rect class="key" x="126" y="156" width="20" height="6" rx="2" fill="#ffd60a"/></g>
+    <rect x="96" y="186" width="48" height="12" rx="4" fill="#fff"/>
+    <!-- neck -->
+    <rect x="108" y="104" width="24" height="18" rx="4" fill="#3a6df0"/>
+    <!-- antenna -->
+    <path d="M120 20v-12" fill="none"/>
+    <circle class="ant" cx="120" cy="8" r="8" fill="#ff5a36"/>
+    <!-- head -->
+    <rect x="66" y="22" width="108" height="86" rx="22" fill="#ffd60a"/>
+    <rect x="56" y="52" width="12" height="26" rx="4" fill="#3a6df0"/>
+    <rect x="172" y="52" width="12" height="26" rx="4" fill="#3a6df0"/>
+    <!-- visor -->
+    <rect x="80" y="40" width="80" height="52" rx="14" fill="#111"/>
+    <g class="blink" stroke="none" fill="#00c46a"><rect x="94" y="58" width="16" height="20" rx="5"/><rect x="130" y="58" width="16" height="20" rx="5"/></g>
+    <path d="M108 86q12 6 24 0" fill="none" stroke="#00c46a" stroke-width="4"/>
+    <g stroke="none"><rect class="scan" x="112" y="44" width="16" height="4" rx="2" fill="#3a6df0" opacity=".9"/></g>
   </g>
-  <g fill="#ffd60a"><path class="spark" d="M30 50l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" style="transform-origin:30px 64px"/><path class="spark" d="M192 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="transform-origin:192px 51px;animation-delay:1s"/></g>
+  <g fill="#ffd60a" stroke="#111" stroke-width="2"><path class="spark" d="M24 70l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" style="transform-origin:24px 84px"/><path class="spark" d="M212 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3z" style="transform-origin:212px 51px;animation-delay:1s"/></g>
 </svg>
