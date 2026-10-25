@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" width="900" height="430">
+  <defs>
+    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#111"/></pattern>
+    <style>
+      .t{font-family:'Arial Black','Segoe UI',Arial,sans-serif;font-weight:900}
+      .mono{font-family:'JetBrains Mono',Consolas,'Courier New',monospace;font-weight:800}
+      .hop{animation:hop .5s ease-in-out infinite}
+      .legA{animation:legA .5s ease-in-out infinite;transform-box:fill-box;transform-origin:top center}
+      .legB{animation:legA .5s ease-in-out infinite reverse;transform-box:fill-box;transform-origin:top center}
+      .tail{animation:wag .35s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:bottom left}
+      .ball{animation:ball 1s cubic-bezier(.3,.6,.4,1) infinite}
+      .dogrun{animation:dogrun 4s ease-in-out infinite}
+      .beam{animation:beam .9s steps(1) infinite}
+      .flash{animation:flash .9s steps(1) infinite;transform-box:fill-box;transform-origin:center}
+      .hit{animation:hit .9s ease-out infinite;transform-box:fill-box;transform-origin:center}
+      .eyeR{animation:eyeR .9s steps(1) infinite}
+      .core{animation:core 1.2s steps(1) infinite}
+      .bob{animation:bob 3s ease-in-out infinite}
+      .f1{animation:f1 5s ease-in-out infinite}
+      .spin{animation:sp 12s linear infinite;transform-box:fill-box;transform-origin:center}
+      @keyframes hop{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+      @keyframes legA{0%,100%{transform:rotate(-22deg)}50%{transform:rotate(22deg)}}
+      @keyframes wag{from{transform:rotate(-18deg)}to{transform:rotate(22deg)}}
+      @keyframes ball{0%,100%{transform:translateY(0) scale(1.2,.8)}12%{transform:translateY(-4px) scale(1)}50%{transform:translateY(-38px) scale(1)}88%{transform:translateY(-4px) scale(1)}}
+      @keyframes dogrun{0%,100%{transform:translateX(0)}50%{transform:translateX(-46px)}}
+      @keyframes beam{0%{opacity:1}30%{opacity:0}45%{opacity:1}60%{opacity:0}100%{opacity:0}}
+      @keyframes flash{0%{opacity:1;transform:scale(1.3)}30%{opacity:0}45%{opacity:1;transform:scale(1)}60%{opacity:0}100%{opacity:0}}
+      @keyframes hit{0%{opacity:1;transform:scale(.4)}100%{opacity:0;transform:scale(1.8)}}
+      @keyframes eyeR{0%{fill:#ff2a1a}50%{fill:#ff8a7a}100%{fill:#ff2a1a}}
+      @keyframes core{0%{fill:#ff2a1a}50%{fill:#ffd60a}}
+      @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
+      @keyframes f1{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+      @keyframes sp{to{transform:rotate(360deg)}}
+  @keyframes wL{0%{transform:translateX(0) scaleX(1)}49%{transform:translateX(250px) scaleX(1)}50%{transform:translateX(250px) scaleX(-1)}99%{transform:translateX(0) scaleX(-1)}100%{transform:translateX(0) scaleX(1)}}
+  .wL{animation:wL 9s linear 0s infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes wP{0%{transform:translateX(0) scaleX(1)}49%{transform:translateX(190px) scaleX(1)}50%{transform:translateX(190px) scaleX(-1)}99%{transform:translateX(0) scaleX(-1)}100%{transform:translateX(0) scaleX(1)}}
+  .wP{animation:wP 6.5s linear -2s infinite;transform-box:fill-box;transform-origin:center}
+  @keyframes wC{0%{transform:translateX(0) scaleX(1)}49%{transform:translateX(130px) scaleX(1)}50%{transform:translateX(130px) scaleX(-1)}99%{transform:translateX(0) scaleX(-1)}100%{transform:translateX(0) scaleX(1)}}
+  .wC{animation:wC 8s linear -4s infinite;transform-box:fill-box;transform-origin:center}
+    </style>
+    <clipPath id="c0"><rect x="387" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.05;0.10096;0.10106;1" values="0;126;126;0;0"/></rect></clipPath>
+    <clipPath id="c1"><rect x="387" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.125;0.175;0.22596;0.22606;1" values="0;0;126;126;0;0"/></rect></clipPath>
+    <clipPath id="c2"><rect x="396" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.25;0.3;0.35096;0.35106;1" values="0;0;108;108;0;0"/></rect></clipPath>
+    <clipPath id="c3"><rect x="324" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.375;0.425;0.47596;0.47606;1" values="0;0;252;252;0;0"/></rect></clipPath>
+    <clipPath id="c4"><rect x="360" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.5;0.55;0.60096;0.60106;1" values="0;0;180;180;0;0"/></rect></clipPath>
+    <clipPath id="c5"><rect x="288" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.625;0.675;0.72596;0.72606;1" values="0;0;324;324;0;0"/></rect></clipPath>
+    <clipPath id="c6"><rect x="351" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.75;0.8;0.85096;0.85106;1" values="0;0;198;198;0;0"/></rect></clipPath>
+    <clipPath id="c7"><rect x="333" y="348" height="48" width="0"><animate attributeName="width" dur="20.8s" repeatCount="indefinite" keyTimes="0;0.875;0.925;0.97596;0.97606;1" values="0;0;234;234;0;0"/></rect></clipPath>
+  </defs>
+
+  <!-- card -->
+  <rect x="10" y="10" width="888" height="418" rx="16" fill="#111"/>
+  <rect x="2" y="2" width="888" height="418" rx="16" fill="#f5f1e8" stroke="#111" stroke-width="4"/>
+  <rect x="2" y="2" width="888" height="418" rx="16" fill="url(#dots)" opacity=".12"/>
+
+  <!-- floating decor -->
+  <g class="f1"><circle cx="560" cy="196" r="12" fill="#ff5a36" stroke="#111" stroke-width="4"/></g>
+  <g class="spin"><path d="M850 36v34M833 53h34" stroke="#111" stroke-width="6" stroke-linecap="round"/></g>
+  <rect x="690" y="180" width="20" height="20" rx="4" fill="#3a6df0" stroke="#111" stroke-width="4" class="f1"/>
+
+  <!-- name -->
+  <text class="t" x="458" y="128" font-size="80" text-anchor="middle" fill="#111">SRAVAN SHAJI</text>
+  <text class="t" x="450" y="120" font-size="80" text-anchor="middle" fill="#ffd60a" stroke="#111" stroke-width="3" paint-order="stroke">SRAVAN SHAJI</text>
+
+  <!-- laser from terminator to the name -->
+  <g>
+    <line class="beam" x1="237" y1="176" x2="330" y2="100" stroke="#ff2a1a" stroke-width="3" stroke-linecap="round"/>
+    <line class="beam" x1="237" y1="176" x2="330" y2="100" stroke="#ff2a1a" stroke-width="9" stroke-linecap="round" opacity=".25"/>
+    <circle class="hit" cx="330" cy="100" r="14" fill="none" stroke="#ff2a1a" stroke-width="3"/>
+    <circle class="flash" cx="330" cy="100" r="6" fill="#ff2a1a"/>
+  </g>
+
+  <!-- terminator -->
+  <g transform="translate(140 340)">
+   <g class="bob" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-20" y="-52" width="14" height="44" rx="4" fill="#8b95a5"/><rect x="6" y="-52" width="14" height="44" rx="4" fill="#8b95a5"/>
+    <rect x="-27" y="-10" width="25" height="10" rx="3" fill="#2b2f38"/><rect x="2" y="-10" width="25" height="10" rx="3" fill="#2b2f38"/>
+    <rect x="-24" y="-64" width="48" height="14" rx="4" fill="#b8c0cc"/>
+    <rect x="-5" y="-100" width="10" height="38" rx="3" fill="#8b95a5"/>
+    <g fill="none" stroke="#111" stroke-width="8"><path d="M-5 -94Q-26 -94 -24 -80"/><path d="M-5 -82Q-28 -82 -26 -68"/><path d="M5 -94Q26 -94 24 -80"/><path d="M5 -82Q28 -82 26 -68"/></g>
+    <g fill="none" stroke="#b8c0cc" stroke-width="3.5"><path d="M-5 -94Q-26 -94 -24 -80"/><path d="M-5 -82Q-28 -82 -26 -68"/><path d="M5 -94Q26 -94 24 -80"/><path d="M5 -82Q28 -82 26 -68"/></g>
+    <circle class="core" cx="0" cy="-78" r="5" fill="#ff2a1a" stroke="none"/>
+    <rect x="-36" y="-100" width="10" height="40" rx="4" fill="#8b95a5"/><circle cx="-31" cy="-58" r="6" fill="#2b2f38"/>
+    <path d="M20 -92L44 -114L62 -134" fill="none" stroke="#111" stroke-width="13"/>
+    <path d="M20 -92L44 -114L62 -134" fill="none" stroke="#8b95a5" stroke-width="7"/>
+    <circle cx="44" cy="-114" r="6" fill="#2b2f38"/>
+    <g transform="translate(62 -134) rotate(-40)">
+      <rect x="-4" y="-6" width="40" height="12" rx="3" fill="#2b2f38"/>
+      <rect x="30" y="-9" width="16" height="18" rx="3" fill="#8b95a5"/>
+      <rect x="2" y="4" width="9" height="14" rx="2" fill="#2b2f38"/>
+      <circle class="eyeR" cx="20" cy="-6" r="2.5" fill="#ff2a1a" stroke="none"/>
+    </g>
+    <circle class="flash" cx="237" cy="176" r="0" fill="none"/>
+    <rect x="-3" y="-108" width="6" height="10" fill="#2b2f38"/>
+    <path d="M-17 -118a17 16 0 0 1 34 0v12q0 8-7 8h-20q-7 0-7-8z" fill="#b8c0cc"/>
+    <ellipse cx="-6" cy="-118" rx="6" ry="5.5" fill="#111"/><ellipse cx="8" cy="-118" rx="6" ry="5.5" fill="#111"/>
+    <circle class="eyeR" cx="-5" cy="-118" r="3.2" fill="#ff2a1a" stroke="none"/><circle class="eyeR" cx="9" cy="-118" r="3.2" fill="#ff2a1a" stroke="none"/>
+    <path d="M-12 -125l10 3M16 -125l-10 3" fill="none" stroke="#111" stroke-width="3"/>
+    <path d="M-8 -106h16" fill="none" stroke="#111" stroke-width="3"/>
+   </g>
+  </g>
+  <circle class="flash" cx="237" cy="176" r="9" fill="#ffd60a" stroke="#ff2a1a" stroke-width="3"/>
+
+  <!-- walking devices: laptop / phone / desktop -->
+  <g transform="translate(330 340)"><g class="wL"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-18" y="-36" width="36" height="24" rx="3" fill="#3a6df0"/><rect x="-14" y="-32" width="28" height="16" rx="2" fill="#fff"/>
+    <circle cx="-5" cy="-26" r="2" fill="#111" stroke="none"/><circle cx="5" cy="-26" r="2" fill="#111" stroke="none"/><path d="M-4 -21q4 3 8 0" fill="none" stroke-width="2"/>
+    <rect x="-23" y="-12" width="46" height="6" rx="2" fill="#8b95a5"/>
+    <line class="legA" x1="-8" y1="-6" x2="-8" y2="2"/><line class="legB" x1="8" y1="-6" x2="8" y2="2"/>
+  </g></g></g>
+  <g transform="translate(430 340)"><g class="wP"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-9" y="-36" width="18" height="30" rx="4" fill="#ff5a36"/><rect x="-6" y="-32" width="12" height="20" rx="2" fill="#fff"/>
+    <circle cx="-2.5" cy="-24" r="1.6" fill="#111" stroke="none"/><circle cx="2.5" cy="-24" r="1.6" fill="#111" stroke="none"/>
+    <line class="legA" x1="-4" y1="-6" x2="-4" y2="2"/><line class="legB" x1="4" y1="-6" x2="4" y2="2"/>
+  </g></g></g>
+  <g transform="translate(560 340)"><g class="wC"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-18" y="-38" width="30" height="22" rx="3" fill="#00c46a"/><rect x="-14" y="-34" width="22" height="14" rx="2" fill="#fff"/>
+    <circle cx="-7" cy="-28" r="1.8" fill="#111" stroke="none"/><circle cx="1" cy="-28" r="1.8" fill="#111" stroke="none"/>
+    <rect x="-8" y="-16" width="10" height="6" fill="#8b95a5"/><rect x="14" y="-34" width="10" height="26" rx="2" fill="#b8c0cc"/>
+    <line class="legA" x1="-4" y1="-10" x2="-4" y2="2"/><line class="legB" x1="14" y1="-8" x2="14" y2="2"/>
+  </g></g></g>
+
+  <!-- dog + ball -->
+  <g transform="translate(830 340)">
+    <circle class="ball" cx="12" cy="-6" r="6" fill="#ff5a36" stroke="#111" stroke-width="3"/>
+  </g>
+  <g transform="translate(790 340)"><g class="dogrun"><g class="hop" stroke="#111" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <path class="tail" d="M-22 -22q-14 -8 -10 -22" fill="none" stroke-width="5"/>
+    <ellipse cx="0" cy="-20" rx="22" ry="12" fill="#c98a4b"/>
+    <rect x="-16" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/><rect x="-4" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/><rect x="8" y="-12" width="7" height="12" rx="3" fill="#c98a4b"/>
+    <circle cx="22" cy="-32" r="11" fill="#c98a4b"/>
+    <path d="M14 -40q-8 4 -4 14q6 -2 8 -8z" fill="#8a5a2b"/>
+    <ellipse cx="31" cy="-29" rx="6" ry="4.5" fill="#f5e6c8"/><circle cx="35" cy="-30" r="2" fill="#111" stroke="none"/>
+    <circle cx="23" cy="-35" r="1.8" fill="#111" stroke="none"/>
+    <path d="M12 -23h12" stroke="#ff5a36" stroke-width="4"/>
+  </g></g></g>
+
+  <!-- yellow typing bar -->
+  <rect x="48" y="346" width="820" height="64" rx="10" fill="#111"/>
+  <rect x="40" y="340" width="820" height="64" rx="10" fill="#ffd60a" stroke="#111" stroke-width="4"/>
+  <text clip-path="url(#c0)" x="387" y="382" class="mono" font-size="30" fill="#111">ListOff</text>
+    <text clip-path="url(#c1)" x="387" y="382" class="mono" font-size="30" fill="#111">reciper</text>
+    <text clip-path="url(#c2)" x="396" y="382" class="mono" font-size="30" fill="#111">gitman</text>
+    <text clip-path="url(#c3)" x="324" y="382" class="mono" font-size="30" fill="#111">WalletGuardian</text>
+    <text clip-path="url(#c4)" x="360" y="382" class="mono" font-size="30" fill="#111">CyberPulse</text>
+    <text clip-path="url(#c5)" x="288" y="382" class="mono" font-size="30" fill="#111">Escape from Lunars</text>
+    <text clip-path="url(#c6)" x="351" y="382" class="mono" font-size="30" fill="#111">ChronoEarth</text>
+    <text clip-path="url(#c7)" x="333" y="382" class="mono" font-size="30" fill="#111">MnemosyneLens</text>
+</svg>

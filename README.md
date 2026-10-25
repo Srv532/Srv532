@@ -1,10 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Sravan Shaji" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=111111&background=FFD60A&center=true&vCenter=true&width=640&lines=ListOff;reciper;gitman;WalletGuardian;CyberPulse;Escape+from+Lunars;ChronoEarth;MnemosyneLens" alt="typing"/>
-
-<img src="assets/terminator.svg" alt="robot" width="190"/>
+<img src="assets/hero.svg" alt="Sravan Shaji" width="100%"/>
 
 <img src="https://img.shields.io/badge/focus-cyber_security-3a6df0?style=for-the-badge&labelColor=111111" alt="focus"/>
 
