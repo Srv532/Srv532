@@ -1,0 +1,30 @@
+name: Update activity graph
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/activity.mjs]
+
+permissions:
+  contents: write
+
+jobs:
+  activity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node scripts/activity.mjs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          git config user.name "Sravan Shaji"
+          git config user.email "225543081+Srv532@users.noreply.github.com"
+          git add assets/activity.svg
+          git diff --staged --quiet || (git commit -m "chore: refresh activity graph" && git push)

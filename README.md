@@ -43,7 +43,7 @@
 
 <img src="https://streak-stats.demolab.com?user=Srv532&stroke=111111&border=111111&borderRadius=6&background=F5F1E8&ring=3A6DF0&fire=FF5A36&currStreakLabel=3A6DF0&currStreakNum=111111&sideNums=111111&sideLabels=111111&dates=555555" alt="streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srv532&bg_color=f5f1e8&color=111111&line=ff5a36&point=111111&area=true&area_color=ffd60a&hide_border=false&border_color=111111" alt="activity graph" width="100%"/>
+<img src="assets/activity.svg" alt="live activity" width="100%"/>
 
 </div>
 
