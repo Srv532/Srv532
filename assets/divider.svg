@@ -1,6 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40">
-  <defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#ff5fa2"/><stop offset=".5" stop-color="#ffd23f"/><stop offset="1" stop-color="#3ee0ff"/></linearGradient></defs>
-  <path fill="none" stroke="url(#g)" stroke-width="4" stroke-linecap="round" d="M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20">
-    <animate attributeName="d" dur="3s" repeatCount="indefinite" values="M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20;M0 20 Q 37.5 40 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20;M0 20 Q 37.5 0 75 20 T 150 20 T 225 20 T 300 20 T 375 20 T 450 20 T 525 20 T 600 20 T 675 20 T 750 20 T 825 20 T 900 20"/>
-  </path>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 24" width="900" height="24">
+  <style>
+    .m{animation:m 2.5s linear infinite}
+    @keyframes m{to{transform:translateX(-48px)}}
+  </style>
+  <clipPath id="c"><rect x="2" y="2" width="896" height="20" rx="4"/></clipPath>
+  <rect x="2" y="2" width="896" height="20" rx="4" fill="#ffd60a"/>
+  <g clip-path="url(#c)"><g class="m" fill="#111">
+    <path d="M-48 24l12-24h12l-12 24zM0 24l12-24h12L12 24zM48 24l12-24h12L60 24zM96 24l12-24h12l-12 24zM144 24l12-24h12l-12 24zM192 24l12-24h12l-12 24zM240 24l12-24h12l-12 24zM288 24l12-24h12l-12 24zM336 24l12-24h12l-12 24zM384 24l12-24h12l-12 24zM432 24l12-24h12l-12 24zM480 24l12-24h12l-12 24zM528 24l12-24h12l-12 24zM576 24l12-24h12l-12 24zM624 24l12-24h12l-12 24zM672 24l12-24h12l-12 24zM720 24l12-24h12l-12 24zM768 24l12-24h12l-12 24zM816 24l12-24h12l-12 24zM864 24l12-24h12l-12 24zM912 24l12-24h12l-12 24z"/>
+  </g></g>
+  <rect x="2" y="2" width="896" height="20" rx="4" fill="none" stroke="#111" stroke-width="4"/>
 </svg>

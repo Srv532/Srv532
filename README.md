@@ -2,12 +2,11 @@
 
 <img src="assets/banner.svg" alt="Sravan Shaji" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=3EE0FF&center=true&vCenter=true&width=640&lines=b.tech+student+%40+Amrita+Vishwa+Vidyapeetham;i+build+web+apps+%26+android+apps;lately+deep+into+cyber+security;shipping+things+that+actually+work" alt="typing"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=111111&background=FFD60A&center=true&vCenter=true&width=640&lines=b.tech+student+%40+Amrita+Vishwa+Vidyapeetham;lately+deep+into+cyber+security;shipping+things+that+actually+work" alt="typing"/>
 
 <img src="assets/mascot.svg" alt="mascot" width="150"/>
 
-<a href="https://github.com/Srv532?tab=followers"><img src="https://img.shields.io/github/followers/Srv532?style=for-the-badge&logo=github&color=ff5fa2&labelColor=0d1117" alt="followers"/></a>
-<img src="https://img.shields.io/badge/focus-web_%C2%B7_android_%C2%B7_security-3ee0ff?style=for-the-badge&labelColor=0d1117" alt="focus"/>
+<a href="https://github.com/Srv532?tab=followers"><img src="https://img.shields.io/github/followers/Srv532?style=for-the-badge&logo=github&color=ff5a36&labelColor=111111" alt="followers"/></a>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
 
@@ -31,7 +30,7 @@
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,react,nextjs,kotlin,python,firebase,supabase,vercel,tailwind,git&perline=10" alt="skills"/>
+<img src="https://skillicons.dev/icons?i=ts,react,nextjs,kotlin,python,firebase,supabase,vercel,tailwind,git&theme=light&perline=10" alt="skills"/>
 
 </div>
 
@@ -41,12 +40,12 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Srv532&show_icons=true&hide_border=true&bg_color=0d1117&title_color=ff5fa2&icon_color=3ee0ff&text_color=c9d1d9&ring_color=ffd23f" alt="stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srv532&layout=compact&hide_border=true&bg_color=0d1117&title_color=ff5fa2&text_color=c9d1d9&langs_count=6" alt="top languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Srv532&show_icons=true&border_color=111111&border_radius=6&bg_color=f5f1e8&title_color=111111&icon_color=ff5a36&text_color=111111&ring_color=3a6df0" alt="stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Srv532&layout=compact&border_color=111111&border_radius=6&bg_color=f5f1e8&title_color=111111&text_color=111111&langs_count=6" alt="top languages"/>
 
-<img src="https://streak-stats.demolab.com?user=Srv532&hide_border=true&background=0d1117&ring=ffd23f&fire=ff5fa2&currStreakLabel=3ee0ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="streak"/>
+<img src="https://streak-stats.demolab.com?user=Srv532&stroke=111111&border=111111&borderRadius=6&background=F5F1E8&ring=3A6DF0&fire=FF5A36&currStreakLabel=3A6DF0&currStreakNum=111111&sideNums=111111&sideLabels=111111&dates=555555" alt="streak"/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srv532&bg_color=0d1117&color=3ee0ff&line=ff5fa2&point=ffd23f&area=true&area_color=3ee0ff&hide_border=true" alt="activity graph" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Srv532&bg_color=f5f1e8&color=111111&line=ff5a36&point=111111&area=true&area_color=ffd60a&hide_border=false&border_color=111111" alt="activity graph" width="100%"/>
 
 </div>
 
@@ -62,5 +61,5 @@ working on [**MnemosyneLens**](https://github.com/Srv532/MnemosyneLens), a photo
 
 <div align="center">
 <br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=110&section=footer" width="100%" alt=""/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=111111&height=14&section=footer" width="100%" alt=""/>
 </div>
